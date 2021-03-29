@@ -1,0 +1,130 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Landing Page</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+      <img
+        id="header-img"
+        src="image/logo.png"
+        alt="Gaming Chair Pro logo"
+      />
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#products">Demo</a></li>
+        <li><a class="nav-link" href="#bestseller">Prices</a></li>
+        <li><a class="nav-link" href="#features">Features</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container"></div>
+
+  <section id="hero">
+    <h2>The comfortable way to your victory!</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+  </section>
+
+  <section id="bestseller">
+      <span id="bestsellingbrand"><p><div id="brand">Secretlab TITAN 2020 Series</div></p></span>
+        <iframe id="video" height="415" src="https://www.youtube.com/embed/Fkey2ZvX6lU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+  
+  <div class="container">
+    <section id="products">
+      <div class="product" id="tenor">
+        <div class="level">Black Secret Lab 2020</div>
+        <h2>₱25,990</h2>
+        <img src="image/black.jpg" class="paperclipimg" alt="red-paperclip">
+        <ol>
+          <li>Best seller of 2020</li>
+          <li>Clean black and blue design</li>
+          <li>Free Shipping within NCR</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="bass">
+        <div class="level">Joker Secret Lab 2020</div>
+        <h2>₱25,990</h2>
+        <img src="image/joker.jpg" class="paperclipimg" alt="green-paperclip">
+        <ol>
+          <li>Unique Joker Design</li>
+          <li>Green, Black, Purple colorway</li>
+          <li>Free Shipping within NCR</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="valve">
+        <div class="level">Red Secret Lab 2020</div>
+        <h2>₱25,990</h2>
+        <img src="image/red.jpg" class="paperclipimg" alt="blue-paperclip">
+        <ol>
+          <li>Raging red design</li>
+          <li>Red, Black colorway</li>
+          <li>Free Shipping within NCR</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+
+    <section id="features">
+      <h2>Features</h2>
+      <div class="grid">
+        <div class="desc">
+          <h2 class="question">Premium Materials</h2>
+          <p>
+            All the materials used in this product is imported from the U.S.A
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="desc">
+          <h2 class="question">Free Shipping</h2>
+          <p>
+            Free shipping within NCR area pay additional fee for provincial areas
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="desc">
+          <h2 class="question">High-class Design</h2>
+          <p>
+            The design is made by the artists from Italy
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2021, Gaming Chair Pro</span>
+    </footer>
+  </div>
+</div>
+
+</body>
+</html>
